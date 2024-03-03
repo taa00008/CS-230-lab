@@ -1,7 +1,8 @@
 import logo from './logo.svg';
+import React from 'react';
+import Navbar from './Navbar';
+import Card from './Card';
 import './App.css';
-import './Navbar.js';
-import './Card.js';
 
 function App() {
   const cardContent = (
@@ -16,7 +17,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Card title="Card 01" content={cardContent} />
+      <div className="card-container">
+        <Card title="Card 01" content={cardContent} />
+        <Card title="Card 02" content={cardContent} />
+        <Card title="Card 03" content={cardContent} />
+      </div>
     </div>
   );
 }
