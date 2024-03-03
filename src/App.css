@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
