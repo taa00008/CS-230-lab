@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <nav classname="navbar" class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
       <div className="left-tabs">
+        <div className="navbar-title">Navbar</div>
         <div className="tab">Home</div>
         <div className="tab">About</div>
         <div className="tab">Contact</div>
