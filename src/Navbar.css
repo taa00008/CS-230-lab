@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     background-color: #333; /* You can customize the background color */
     color: white; /* You can customize the text color */
   }
@@ -12,17 +12,20 @@
   
   .tab {
     margin-right: 20px;
+    grid-template-columns: repeat(3, 60px);
     cursor: pointer;
   }
 
   .navbar-title {
-    text-size-adjust: 18pt;
+    font-size: 18pt;
     margin-right: 20px;
+    margin-left: 20px;
     cursor: pointer;
   }
   
   .right-search {
     display: flex;
+    margin-right: 20px;
   }
   
   input {
