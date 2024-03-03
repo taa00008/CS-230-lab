@@ -1,28 +1,19 @@
 import React from 'react';
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li>
-          <input type="text" placeholder="Search" />
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+const Navbar = () => {
+  return (
+    <nav classname="navbar" class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div className="left-tabs">
+        <div className="tab">Home</div>
+        <div className="tab">About</div>
+        <div className="tab">Contact</div>
+      </div>
+      <div className="right-search">
+        <input type="text" placeholder="Search" />
+        {/* You can add additional search button or icon if needed */}
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;

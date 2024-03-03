@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Card from './Card';
 import './App.css';
+import './Navbar.css';
 
 function App() {
   const cardContent = (
